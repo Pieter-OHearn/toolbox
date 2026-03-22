@@ -13,10 +13,11 @@ The goal is to keep them:
 
 ## 📦 Packages
 
-| Package                                                                                         | Description                                                                           | Install                               |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------- |
-| **[@Pieter-OHearn/iso-country](https://github.com/pieter-ohearn/toolbox/pkgs/npm/iso-country)** | ISO 3166-1 alpha-2 utilities (Zod v4): validation, code to name, emoji flags, search. | `pnpm add @Pieter-OHearn/iso-country` |
-| **[@Pieter-OHearn/log-plus](https://github.com/pieter-ohearn/toolbox/pkgs/npm/log-plus)**       | Lightweight logging with levels, timestamps, and pluggable formatters/transports.     | `pnpm add @Pieter-OHearn/log-plus`    |
+| Package                                                                                                               | Description                                                                                     | Install                                             |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **[@Pieter-OHearn/github-ticket-workflow](https://github.com/pieter-ohearn/toolbox/pkgs/npm/github-ticket-workflow)** | Reusable local GitHub issue-to-PR workflow automation for Codex/Claude-driven ticket execution. | `pnpm add -D @Pieter-OHearn/github-ticket-workflow` |
+| **[@Pieter-OHearn/iso-country](https://github.com/pieter-ohearn/toolbox/pkgs/npm/iso-country)**                       | ISO 3166-1 alpha-2 utilities (Zod v4): validation, code to name, emoji flags, search.           | `pnpm add @Pieter-OHearn/iso-country`               |
+| **[@Pieter-OHearn/log-plus](https://github.com/pieter-ohearn/toolbox/pkgs/npm/log-plus)**                             | Lightweight logging with levels, timestamps, and pluggable formatters/transports.               | `pnpm add @Pieter-OHearn/log-plus`                  |
 
 ## Development
 

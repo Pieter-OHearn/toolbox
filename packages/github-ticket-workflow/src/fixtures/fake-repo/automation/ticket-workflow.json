@@ -1,0 +1,44 @@
+{
+  "repo": {
+    "owner": "Pieter-OHearn",
+    "name": "example"
+  },
+  "git": {
+    "defaultBaseBranch": "main"
+  },
+  "ticket": {
+    "branchPrefix": "ticket"
+  },
+  "githubProject": {
+    "number": 1,
+    "id": "project-id",
+    "statusFieldId": "field-id",
+    "statusOptions": {
+      "backlog": "backlog-id",
+      "ready": "ready-id",
+      "inProgress": "progress-id",
+      "inReview": "review-id",
+      "done": "done-id"
+    }
+  },
+  "workflow": {
+    "requireReadyByDefault": true,
+    "stateDir": ".agent-workflow",
+    "promptContextFiles": ["AGENTS.md", "SPEC.md"],
+    "productInstructions": "Keep changes narrow and explicit.",
+    "prePushChecks": []
+  },
+  "agents": {
+    "defaultProvider": "codex",
+    "providers": {
+      "codex": {
+        "bin": "codex",
+        "flags": ["-C", "/repo"]
+      },
+      "claude": {
+        "bin": "claude",
+        "flags": ["--print"]
+      }
+    }
+  }
+}
